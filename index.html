@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Agora</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="imagens/icon-principal.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="search">
+            <input type="text" name="cep" id="city" placeholder="Digite o nome da cidade">
+            <button type="submit" id="btn">
+                <img src="imagens/search.png" alt="imagem de lupa">
+            </button>
+        </div>
+
+        <div id="name">
+            <p>Digite o nome da cidade...</p>
+        </div>
+
+        <div id="number">
+            <p>21°C</p>
+        </div>
+
+        <div id="weather">
+            <p id="desc"></p>
+            <img src="" alt="ícone do clima atual" id="weather-icon">
+        </div>
+
+        <div id="humidity">
+            <p>Umidade: </p>
+        </div>
+
+    </main>
+</body>
+
+<script src="index.js"></script>
+</html>
